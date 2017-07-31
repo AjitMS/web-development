@@ -1,0 +1,146 @@
+body {
+    font: Monsterrat;
+    margin: 0 auto;
+}
+
+#topbar {
+    color: white;
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(#1d367f, #132456);
+}
+
+#div01 {
+    width: 180px;
+    float: left;
+}
+
+#logo {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#a1 {
+    color: lightgrey;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+}
+
+li {
+    float: right;
+    padding: 30px;
+}
+
+li a {
+    margin-left: 10px;
+    float: right;
+    color: #BDC3FF;
+    text-decoration: none
+}
+
+.clear {
+    clear: both;
+}
+
+li a:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+#div02 {
+    float: right;
+    color: white;
+    margin: 0px;
+}
+
+#menu {
+    background: linear-gradient(#FF2E2E, #BF0000);
+    margin-top: 0;
+    color: white;
+    height: 40px;
+}
+
+#ul02 {
+    list-style-type: none;
+    display: inline;
+}
+
+#li02 {
+    margin-top: 10px;
+    margin-right: 10px;
+    border-right: 2px solid #F16060;
+    padding: 6px;
+}
+
+#a02 {
+    color: #FFF3F3;
+}
+
+#part01 {
+    margin-left: 16px;
+    height: 445px;
+    width: 380px;
+    margin-top: 12px;
+    color: #383838;
+    float: left;
+}
+
+#part02 {
+    margin-top: 12px;
+    margin-left: 16px;
+    color: #333333;
+    width: 257px;
+    height: 445px;
+    float: left;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+h4 {
+    color: #383838;
+}
+
+#videoicon {
+    width: 25px;
+    height: 12px;
+    float: right;
+    position: relative;
+    bottom: 40px;
+    margin-right: 9px;
+}
+
+#part03{
+     margin-top: 12px;
+    margin-left: 22px;
+    color: #333333;
+    width: 307px;
+    height: 445px;
+    float: left;
+    background-color: black;
+}
+
+#storyicons{
+    width: 99px;
+    height: 77px; 
+    float: left;
+    margin-top:0px;
+}
+
+.storyheader {
+    margin-left:5px;
+    
+        
+    color: red;
+}
+a{
+    text-decoration: none;    
+}
+
+
+
