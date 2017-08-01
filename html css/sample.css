@@ -1,4 +1,4 @@
-body {
+﻿body {
     font: Monsterrat;
     margin: 0 auto;
 }
@@ -23,12 +23,13 @@ body {
 #a1 {
     color: lightgrey;
     float: right;
+    padding: 0px;
 }
 
 ul {
     list-style-type: none;
     display: inline;
-}
+}	
 
 li {
     float: right;
@@ -39,7 +40,7 @@ li a {
     margin-left: 10px;
     float: right;
     color: #BDC3FF;
-    text-decoration: none
+    text-decoration: none; padding:0px;
 }
 
 .clear {
@@ -47,8 +48,9 @@ li a {
 }
 
 li a:hover {
-    background-color: lightblue;
+    background-color: #C10101;
     color: white;
+   
 }
 
 #div02 {
@@ -67,6 +69,9 @@ li a:hover {
 #ul02 {
     list-style-type: none;
     display: inline;
+    margin-bottom: 2px;
+    padding:0px; 
+    
 }
 
 #li02 {
@@ -87,6 +92,7 @@ li a:hover {
     margin-top: 12px;
     color: #383838;
     float: left;
+    
 }
 
 #part02 {
@@ -96,14 +102,31 @@ li a:hover {
     width: 257px;
     height: 445px;
     float: left;
+    padding:0px;
+        
+}
+
+
+#subpart02{
+    border-bottom: 1px inset #EAEDED;
+    padding:0px;
+    margin:0px;
+}
+
+#subpart03{
+    
+    padding:0px;
+    margin:0px;
 }
 
 h3 {
     margin-top: 0px;
+    padding:0px;
 }
 
 h4 {
     color: #383838;
+    padding:0px;
 }
 
 #videoicon {
@@ -115,32 +138,42 @@ h4 {
     margin-right: 9px;
 }
 
-#part03{
-     margin-top: 12px;
+#part03 {
+    margin-top: 12px;
     margin-left: 22px;
     color: #333333;
-    width: 307px;
+    width: 321px;
     height: 445px;
     float: left;
-    background-color: black;
+    
+   
 }
 
-#storyicons{
+#storyicons {
     width: 99px;
-    height: 77px; 
+    height: 77px;
     float: left;
-    margin-top:0px;
+    margin-top: 0px;
 }
 
 .storyheader {
-    margin-left:5px;
-    
-        
+    margin-left: 7px;
     color: red;
 }
-a{
-    text-decoration: none;    
+
+a {
+    text-decoration: none;
+}
+
+#h401{
+    border-bottom: 1px inset #EAEDED;;
+ 
 }
 
 
 
+hr{
+    
+    padding:0;
+    margin:0;
+}
